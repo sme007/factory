@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 450px;
+   
+}
+.head-image {
+    height: 350px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/fact1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head-image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.head-image-text h1{
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+}
+.head-image-text p{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.head-image-text button{
+    text-transform: uppercase;
+    font-size: 20;
+    color: #111;
+}
+.head-image-text button:hover{
+    background-color: orange;
+}
+
+
+.head-section {
+    background-color: orange;
+}
+.head-section-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px;  
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+button{
+    padding: 15px 40px;
+    border: 0;
+    outline: none;
+}
+.btn .btn-1{
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 5px;
+    border: 1px solid #111;
+}
+.btn .btn-2{
+    background-color: transparent;
+    color: #111;
+    font-size: 16px;
+    border: 1px solid #111;
+}
+.btn .btn-1:hover{
+    background-color: transparent;
+    border: 1px solid #111;
+    color: #111;
+}
+.btn .btn-2:hover{
+    background-color: #111;
+    color: #fff;
+}
+.head-section-content-title h6{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.head-section-content-title p{
+    font-size: 20px;
+}
+.main {
+    margin: 30px;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 32%;
+    margin: 10px;
+}
+.col h3{
+    margin: 20px;
+}
+.col p{
+    line-height: 1.3;
+    font-size: 18px;
+    margin: 20px;
+}
+.col1-image {
+    background-image: url(../img/fact5.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+.col2-image {
+    background-image: url(../img/fact2.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.col3-image {
+    background-image: url(../img/fact3.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.col4-image {
+    background-image: url(../img/fact10.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.col5-image {
+    background-image: url(../img/fact7.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.col6-image {
+    background-image: url(../img/fact9.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Story section */
+.story-section {
+    background-color: #f2f2f2;
+}
+.story-section h2{
+    font-size: 40px;
+}
+.story-section-column {
+    display: flex;
+    margin-top: 50px;    
+}
+.section-col1{
+    width: 45%;
+    margin: 10px;
+}
+.section-col2{
+    width: 25%;
+    height: 420px;
+    background-image: url(../img/fact8.jpg);
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+      
+}
+.section-col3{
+    width: 25%;
+    margin: 10px;
+}
+.story-section-title {
+    text-align: center;
+    padding-top: 20px;
+}
+.story-section-title h2{
+   font-size: 45px;
+   margin-bottom: 10px;
+} 
+.section-col1-text {
+    margin: 20px 0;
+}
+.section-col1-text, .section-col3-text p{
+    margin-bottom: 45px;
+}
+.section-col1-text h3 {
+    margin-bottom: 10px;
+}
+.section-col3-text {
+    margin: 20px 0;
+}
+.section-col3-text h3 {
+    margin-bottom: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 600px), (max-width:800px){
+    .head-image-text h1{
+        margin-top: 10px;
+    }
+    .head-image-text p {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .head-section-content {
+        display: flex;
+        flex-direction: column; 
+    }
+    .head-section-content-title {
+        text-align: center;
+    }
+    .head-section-content-title p{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .btn .btn-1 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    } 
+    .btn .btn-2 {
+      font-size: 20px;
+    } 
+
+    .main {
+        padding-top: 100px;
+    }
+    .head-image-text{
+        margin: 15px;
+        padding: 10px;
+    }
+    .head-section-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+        
+    }
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row .col {
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .row .col p, h3{
+        font-size: 30px;
+    }
+    p, h3{
+        font-size: 30px;
+    }
+    .col1-image {
+        margin-top: 30px;
+    }
+    
+    /* Story section */
+    .story-section-column {
+        display: flex;
+        flex-direction: column;    
+    }
+    .section-col1, .section-col2, .section-col3 {
+        width: 100%;
+    }
+    .story-section-title p, h2, h5 {
+        text-align: left;
+    }
+    .story-section-title h2{
+        margin-bottom: 15px;
+    }
+   
+}
